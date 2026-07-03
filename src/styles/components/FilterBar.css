@@ -1,0 +1,31 @@
+.filter-select {
+    width: 180px;
+    height: 45px;
+
+    padding: 0 15px;
+
+    font-size: 15px;
+
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+}
+
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.date-filter {
+    width: 170px;
+    height: 45px;
+
+    padding: 0 15px;
+
+    background-color: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius-medium);
+}

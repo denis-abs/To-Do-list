@@ -1,0 +1,56 @@
+:root {
+    --color-primary: #4F46E5;
+    --color-primary-hover: #4338CA;
+
+    --color-background: #F5F7FB;
+    --color-surface: #FFFFFF;
+
+    --color-border: #E4E7EC;
+
+    --color-gray-light: #F3F4F6;
+    --color-gray-hover: #E5E7EB;
+
+    --color-text: #2C3E50;
+
+    --radius-small: 8px;
+    --radius-medium: 10px;
+    --radius-large: 16px;
+
+    --transition-default: 0.2s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--color-text);
+
+    background-color: var(--color-background);
+}
+
+button {
+    font-family: "Inter", sans-serif;
+
+    border: none;
+    background: none;
+
+    cursor: pointer;
+}
+
+input,
+select,
+textarea {
+    font-family: "Inter", sans-serif;
+
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

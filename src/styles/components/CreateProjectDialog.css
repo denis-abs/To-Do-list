@@ -1,0 +1,123 @@
+.dialog {
+    width: 420px;
+
+    margin: auto;
+
+    border: none;
+    border-radius: var(--radius-large);
+
+    background: var(--color-surface);
+
+    overflow: hidden;
+}
+
+.dialog::backdrop {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+.dialog-header {
+    padding: 24px 28px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.dialog-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dialog-body {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    padding: 24px 28px;
+}
+
+.dialog-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dialog-input {
+    padding: 12px 14px;
+
+    font-size: 15px;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+
+    transition: var(--transition-default);
+
+}
+
+.dialog-input:focus {
+    border-color: var(--color-primary);
+}
+
+.color-picker {
+    display: flex;
+    gap: 12px;
+
+}
+
+.color-button {
+    width: 28px;
+    height: 28px;
+
+    border-radius: 50%;
+
+    transition: transform .15s;
+
+}
+
+.color-button:hover {
+    transform: scale(1.15);
+
+}
+
+.color-button.active{
+    transform: scale(1.15);
+}
+.dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+
+    padding: 20px 28px;
+
+    border-top: 1px solid var(--color-border);
+
+}
+
+.cancel-button {
+    padding: 10px 18px;
+
+    background: var(--color-gray-light);
+
+    border-radius: var(--radius-medium);
+
+    transition: var(--transition-default);
+
+}
+
+.cancel-button:hover {
+    background: var(--color-gray-hover);
+
+}
+
+.create-button {
+    padding: 10px 18px;
+
+    color: white;
+    background: var(--color-primary);
+
+    border-radius: var(--radius-medium);
+
+    transition: var(--transition-default);
+
+}
+
+.create-button:hover {
+    background: var(--color-primary-hover);
+}
