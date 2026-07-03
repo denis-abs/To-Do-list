@@ -48,7 +48,7 @@ const Sidebar = (props) => {
                             name={project.name}
                             color={project.color}
                             selected={selectedProject === project.id}
-                            canDelete={project.id !== 0}
+                            canDelete={project.id !== null}
                             onClick={onSelectProject}
                             onDelete={onDelete}
                             nOpenProjectDialogDelete={nOpenProjectDialogDelete}
